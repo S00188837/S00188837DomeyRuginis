@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.Entity;
 
 namespace DomasRuginisS00188837
 {
@@ -23,6 +24,8 @@ namespace DomasRuginisS00188837
         public MainWindow()
         {
             InitializeComponent();
+
+            MyDataBase db = new MyDataBase();
         }
     }
 }
